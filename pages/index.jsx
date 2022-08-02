@@ -122,7 +122,7 @@ const Index = () => {
             </FormLabel>
           </Tooltip>
           <InputGroup>
-            <InputLeftAddon children="+91" />
+            <InputLeftAddon>+91</InputLeftAddon>
             <Input
               name="Phone"
               value={payload.Phone}
