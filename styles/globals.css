@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+@import url("./Home.module.css");
+
+/*Common Begin*/
+.fwb {
+  font-weight: bold;
+}
+.navcolour {
+  color: #3b82f6;
+}
+.red {
+  color: red;
+}
+/*Common End*/
+
+#nprogress {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  top: 0;
+}
+#nprogress .bar {
+  background: #ed64a6;
+  height: 5px;
+}

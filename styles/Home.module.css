@@ -1,0 +1,25 @@
+.homepage {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
+  flex-wrap: wrap;
+
+  margin: 0 1rem 10vh 1rem;
+}
+
+.hometile_1 {
+  margin: 0 auto;
+}
+/* tab */
+@media (min-width: 40rem) {
+  .hometile_1 {
+    width: 40rem;
+  }
+}
+
+/*lap */
+@media (min-width: 80rem) {
+  .hometile_1 {
+    width: 40rem;
+  }
+}
