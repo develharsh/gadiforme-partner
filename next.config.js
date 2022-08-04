@@ -8,6 +8,6 @@
 module.exports = {
   env: {
     // baseUrl: "http://localhost:3001",
-    baseUrl: "https://www.gadiforme.com",
+    baseUrl: "https://api.gadiforme.com",
   },
 };
