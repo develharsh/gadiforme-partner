@@ -1,7 +1,7 @@
 import { useContext, useState, useEffect } from "react";
 import { DataContext } from "../store/globalstate";
 import { ACTIONS, register } from "../store/actions";
-import Head from "next/head";
+import Seo from "../components/seo";
 import {
   Input,
   FormControl,
@@ -96,9 +96,7 @@ const Index = () => {
   };
   return (
     <>
-      <Head>
-        <title>Drive With Us as Partner - www.gadiforme.com</title>
-      </Head>
+      <Seo title="Drive With Us as Partner - partner.gadiforme.com" />
       <Text fontSize="5xl" textAlign={"center"} my="2rem" color="#000">
         Become Our Partner - GadiForMe.com
       </Text>
