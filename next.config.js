@@ -7,7 +7,9 @@
 // module.exports = nextConfig;
 module.exports = {
   env: {
+    MONGODB_URL:
+      "mongodb+srv://hvs:thakur@cluster0.dqdk6.mongodb.net/production",
     // baseUrl: "http://localhost:3001",
-    baseUrl: "https://api.gadiforme.com",
+    baseUrl: "https://partner.gadiforme.com",
   },
 };
