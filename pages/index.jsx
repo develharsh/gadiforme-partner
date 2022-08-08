@@ -96,9 +96,9 @@ const Index = () => {
   };
   return (
     <>
-      <Seo title="Drive With Us as Partner - partner.gadiforme.com" />
+      <Seo title="Drive With Us as Partner - partner.gadifor.me" />
       <Text fontSize="5xl" textAlign={"center"} my="2rem" color="#000">
-        Become Our Partner - GadiForMe.com
+        Become Our Partner - GadiFor.Me
       </Text>
       <div className="hometile_1">
         <img src="/assets/gadiforme-com-partner.jpg" alt="" />

@@ -13,7 +13,7 @@ const Seo = ({ title }) => {
       <meta name="lang" content="en" />
       <meta
         name="keywords"
-        content="GadiForMe, Gadiforme, www.gadiforme.com, gadiforme.com, partner.gadiforme.com, Gadiforme Partner, Partner."
+        content="GadiForMe, Gadiforme, www.gadifor.me, gadifor.me, partner.gadifor.me, Gadiforme Partner, Partner."
       />
     </Head>
   );
