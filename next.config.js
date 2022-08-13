@@ -10,6 +10,6 @@ module.exports = {
     MONGODB_URL:
       "mongodb+srv://hvs:thakur@cluster0.dqdk6.mongodb.net/production",
     // baseUrl: "http://localhost:3000",
-    baseUrl: "https://partner.gadifor.me",
+    baseUrl: "https://gadifor.me",
   },
 };
