@@ -8,7 +8,7 @@ export const register = async (payload) => {
   try {
     const response = await axios({
       method: "POST",
-      url: `${process.env.baseUrl}/api/partner`,
+      url: `${process.env.baseUrl}/partner/add`,
       data: payload,
     });
     return response.data;
